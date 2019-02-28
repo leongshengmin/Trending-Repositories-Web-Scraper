@@ -33,7 +33,8 @@ class WebServer:
         connectionSocket, _ = self.serverSocket.accept()
         requestMsg = connectionSocket.recv(1024)
         if len(requestMsg) == 0:
-            return
+            print('Received 0 bytes, closing socket')
+            connectionSocket.close()
 
         requestObj = HttpRequest()
         parsed = requestObj.parseRequest(requestMsg)

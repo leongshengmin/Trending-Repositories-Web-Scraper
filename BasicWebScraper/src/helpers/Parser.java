@@ -23,43 +23,37 @@ public class Parser {
         for (Element repo : repoList.children()) {
             String name = repo.id().substring(2);
             System.out.println("name: " + name);
-            if (repo.select("div").hasClass("g-emoji")) {
-                repo.select("div.py-1").text();
-            }
+            String description = repo.select("div.py-1").text();
+            System.out.println("description: " + description);
+
 
             Elements anchors = repo.select("div").select("a");
-
-            System.out.println("SVG LABELS: ");
             anchors.forEach(x -> {
-                System.out.print(x.select("svg").attr("aria-label"));
-                System.out.println(x.text());
-                System.out.println("====================");
+                String label = x.select("svg").attr("aria-label");
+                String labelValue = x.text();
+                System.out.println(label + " " + labelValue);
             });
 
-            System.out.println("SPAN TEXT");
             repo.select("span").forEach(x -> {
-                if (x.select("span").hasAttr("itemprop")) {
-                    System.out.println(x.text());
-                }
-                if (!x.select("svg").isEmpty()) {
+                if (x.hasAttr("itemprop")) {
+                    String property = x.attr("itemprop");
+                    String propertyValue = x.text();
+                    System.out.println(property + " " + propertyValue);
+                } else {
                     System.out.println(x.text());
                 }
             });
-
-            // Elements linksOnPage = repo.select("a[href]");
-            // processLinks(linksOnPage);
-
-            //Elements svgLabels = repo.child(3).select("a").select("svg");
-            //processSvgs(svgLabels);
-            String text = repo.select("div").text();
-            //System.out.println(text);
         }
 
         return data;
     }
 
+    /**
+     * Retrieves urls of trending repos grouped by datebin.
+     * @param document parsed Html document.
+     */
     public static void getDatebinsToVisit(Document document) {
-        document.getElementsByClass("tabnav").select("div").select("details").forEach(x -> {
+        document.getElementsByClass("tabnav").select("details").forEach(x -> {
             x.select("a").forEach(y -> {
                 System.out.println(y.absUrl("href"));
             });

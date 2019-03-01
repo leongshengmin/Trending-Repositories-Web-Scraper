@@ -10,7 +10,7 @@ public class DatabaseConnector {
     private Connection dbConnection;
 
     public DatabaseConnector(String connectionUrl) {
-        // change to env
+        // todo change to env
         try {
             dbConnection = DriverManager.getConnection(connectionUrl);
         } catch (SQLException e) {

@@ -13,8 +13,15 @@ public class Launcher {
         HashMap<String, List<String>> data = Parser.parse(document);
 
         for (Map.Entry<String, List<String>> entry : data.entrySet()) {
-            System.out.println(entry.getKey());
+            System.out.println("REPO NAME: " + entry.getKey());
+            System.out.println("TEXTUAL INFO: ");
             entry.getValue().forEach(System.out::println);
+            System.out.println();
         }
+    }
+
+    public static void main(String[] args) {
+        Launcher launcher = new Launcher();
+        launcher.query("https://github.com/trending?since=daily", "");
     }
 }

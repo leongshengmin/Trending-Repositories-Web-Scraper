@@ -15,19 +15,30 @@ public class Parser {
 
     public static HashMap<String, List<String>> parse(Document document) {
         Element repoList = document.getElementsByClass("repo-list").first();
+        if (repoList == null) return data;
 
         for (Element repo : repoList.children()) {
             String name = repo.id().substring(2);
+            System.out.println("name: " + name);
             // Elements linksOnPage = repo.select("a[href]");
             // processLinks(linksOnPage);
 
-            List<TextNode> textNodes = repo.textNodes();
-            List<String> processedText = processText(textNodes);
-
-            data.put(name, processedText);
+            Elements svgLabels = repo.select("svg");
+            processSvgs(svgLabels);
+            String text = repo.select("div").text();
+            System.out.println(text);
+            //data.put(name, text);
         }
 
         return data;
+    }
+
+    private static List<String> processSvgs(Elements svgElements) {
+        List<String> labels = new LinkedList<>();
+        for (Element svg : svgElements) {
+            labels.add(svg.attr("[aria-label]"));
+        }
+        return labels;
     }
 
     private static List<String> processLinks(Elements linksOnPage) {

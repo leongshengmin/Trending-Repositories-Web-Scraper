@@ -24,14 +24,17 @@ public class DocumentParser implements Parser<Document> {
 
     @Override
     public Parser<Document> parse() {
+        logger.info("Parsing links in document.");
         this.setLinksToVisit();
 
         Element repoList = getRepoList(document);
         if (repoList != null) {
+            logger.info("Parsing list of repositories.");
             for (Element repoElement : repoList.children()) {
                 RepositoryParser repositoryParser = new RepositoryParser(repoElement);
                 Repository parsed = repositoryParser.parse().getType();
                 parsedRepositories.add(parsed);
+                System.out.println(parsed);
             }
         }
         return this;
@@ -75,5 +78,14 @@ public class DocumentParser implements Parser<Document> {
         }
         logger.info("Retrieved list of repositories");
         return repoListElements.first();
+    }
+
+    @Override
+    public String toString() {
+        System.out.println("Parsed repositories: ");
+        parsedRepositories.forEach(repo -> repo.toString());
+        System.out.println("Links to visit: ");
+        linksToVisit.forEach(link -> System.out.println(link));
+        return null;
     }
 }

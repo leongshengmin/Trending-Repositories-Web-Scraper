@@ -33,4 +33,16 @@ public class Repository {
         labelValuePairs.put(label, value);
         return true;
     }
+
+    @Override
+    public String toString() {
+        String repoNameDesc = String.format("Name: %s, \nDescription: %s\n", name, description);
+        System.out.println(repoNameDesc);
+        labelValuePairs.entrySet().forEach(e -> {
+            System.out.println(e.getKey() + " : " + e.getValue());
+        });
+        System.out.println("Details: ");
+        details.forEach(System.out::println);
+        return repoNameDesc;
+    }
 }

@@ -70,4 +70,11 @@ public class RepositoryParser implements Parser<Repository> {
                 });
         return this;
     }
+
+    @Override
+    public String toString() {
+        System.out.println("Parsed repository: ");
+        System.out.println(repository.toString());
+        return null;
+    }
 }

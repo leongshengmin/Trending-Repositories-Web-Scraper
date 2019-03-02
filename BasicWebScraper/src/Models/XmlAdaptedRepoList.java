@@ -2,11 +2,13 @@ package Models;
 
 import java.util.LinkedList;
 
-import javax.xml.bind.annotation.XmlValue;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
 
+@XmlRootElement(name = "Repositories")
 public class XmlAdaptedRepoList {
 
-    @XmlValue
+    @XmlElement
     private LinkedList<XmlAdaptedRepo> xmlAdaptedRepos;
 
     public XmlAdaptedRepoList() {

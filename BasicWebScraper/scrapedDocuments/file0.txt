@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Repositories>
+    <xmlAdaptedRepos>
+        <name>USTC-CS-Courses-Resource</name>
+        <description>❤️中国科学技术大学计算机学院课程资源(https://mbinary.xyz/ustc-cs/)</description>
+        <details>star: 11,981</details>
+        <details>fork: 3,665</details>
+        <details>programmingLanguage: C++</details>
+        <details>1,187 stars today</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>frontend-bootcamp</name>
+        <description>Frontend Workshop from HTML/CSS/JS to TypeScript/React/Redux</description>
+        <details>star: 4,305</details>
+        <details>fork: 399</details>
+        <details>programmingLanguage: TypeScript</details>
+        <details>405 stars today</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>nni</name>
+        <description>An open source AutoML toolkit for neural architecture search and hyper-parameter tuning.</description>
+        <details>star: 1,748</details>
+        <details>fork: 227</details>
+        <details>programmingLanguage: TypeScript</details>
+        <details>385 stars today</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>Awesome-Design-Tools</name>
+        <description>The best design tools for everything.</description>
+        <details>star: 5,529</details>
+        <details>fork: 297</details>
+        <details>345 stars today</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>zero</name>
+        <description>Zero is a web server to simplify web development.</description>
+        <details>star: 2,619</details>
+        <details>fork: 55</details>
+        <details>programmingLanguage: Python</details>
+        <details>342 stars today</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>k3s</name>
+        <description>Lightweight Kubernetes. 5 less than k8s.</description>
+        <details>star: 3,684</details>
+        <details>fork: 126</details>
+        <details>programmingLanguage: Go</details>
+        <details>321 stars today</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>Micro8</name>
+        <description>Gitbook</description>
+        <details>star: 9,395</details>
+        <details>fork: 3,405</details>
+        <details>262 stars today</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>awesome-mental-health</name>
+        <description>A curated list of awesome articles, websites and resources about mental health in the software industry.</description>
+        <details>star: 910</details>
+        <details>fork: 19</details>
+        <details>299 stars today</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>Algorithm_Interview_Notes-Chinese</name>
+        <description>2018/2019/校招/春招/秋招/算法/机器学习(Machine Learning)/深度学习(Deep Learning)/自然语言处理(NLP)/C/C++/Python/面试笔记</description>
+        <details>star: 17,442</details>
+        <details>fork: 5,124</details>
+        <details>programmingLanguage: Python</details>
+        <details>258 stars today</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>coobjc</name>
+        <description>coobjc provides coroutine support for Objective-C and Swift. We added await method、generator and actor model like C#、Javascript and Kotlin. For convenience, we added coroutine categories for some Foundation and UIKit API in cokit framework like NSFileManager, JSON, NSData, UIImage etc. We also add tuple support in coobjc.</description>
+        <details>star: 2,067</details>
+        <details>fork: 246</details>
+        <details>programmingLanguage: Objective-C</details>
+        <details>230 stars today</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>ColorUI</name>
+        <description>鲜亮的高饱和色彩，专注视觉的小程序组件库</description>
+        <details>star: 1,474</details>
+        <details>fork: 208</details>
+        <details>programmingLanguage: JavaScript</details>
+        <details>234 stars today</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>gpu.js</name>
+        <description>GPU Accelerated JavaScript</description>
+        <details>star: 7,696</details>
+        <details>fork: 359</details>
+        <details>programmingLanguage: JavaScript</details>
+        <details>236 stars today</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>gif2xlsx</name>
+        <description>Convert GIFs to XLSX format</description>
+        <details>star: 242</details>
+        <details>fork: 8</details>
+        <details>programmingLanguage: C#</details>
+        <details>224 stars today</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>pagedraw</name>
+        <description>a UI builder for React web apps</description>
+        <details>star: 1,591</details>
+        <details>fork: 142</details>
+        <details>programmingLanguage: CoffeeScript</details>
+        <details>217 stars today</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>public-apis</name>
+        <description>A collective list of free APIs for use in software and web development.</description>
+        <details>star: 52,490</details>
+        <details>fork: 5,311</details>
+        <details>programmingLanguage: Python</details>
+        <details>212 stars today</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>grapesjs</name>
+        <description>Free and Open source Web Builder Framework. Next generation tool for building templates without coding</description>
+        <details>star: 7,853</details>
+        <details>fork: 1,324</details>
+        <details>programmingLanguage: JavaScript</details>
+        <details>212 stars today</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>lazynlp</name>
+        <description>Library to scrape and clean web pages to create massive datasets.</description>
+        <details>star: 549</details>
+        <details>fork: 60</details>
+        <details>programmingLanguage: Python</details>
+        <details>195 stars today</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>bullet</name>
+        <description>🚅 Beautiful Python prompts made simple. Build a prompt like stacking blocks.</description>
+        <details>star: 1,519</details>
+        <details>fork: 25</details>
+        <details>programmingLanguage: Python</details>
+        <details>198 stars today</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>Motrix</name>
+        <description>A full-featured download manager.</description>
+        <details>star: 4,545</details>
+        <details>fork: 363</details>
+        <details>programmingLanguage: JavaScript</details>
+        <details>187 stars today</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>spring-boot-examples</name>
+        <description>about learning Spring Boot via examples. Spring Boot 教程、技术栈示例代码，快速简单上手教程。</description>
+        <details>star: 9,297</details>
+        <details>fork: 4,778</details>
+        <details>programmingLanguage: Java</details>
+        <details>166 stars today</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>JavaGuide</name>
+        <description>【Java学习+面试指南】 一份涵盖大部分Java程序员所需要掌握的核心知识。</description>
+        <details>star: 26,885</details>
+        <details>fork: 8,171</details>
+        <details>programmingLanguage: Java</details>
+        <details>138 stars today</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>cleave.js</name>
+        <description>Format input text content when you are typing...</description>
+        <details>star: 12,810</details>
+        <details>fork: 969</details>
+        <details>programmingLanguage: JavaScript</details>
+        <details>165 stars today</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>simdjson</name>
+        <description>Parsing gigabytes of JSON per second</description>
+        <details>star: 5,228</details>
+        <details>fork: 231</details>
+        <details>programmingLanguage: C++</details>
+        <details>161 stars today</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>subsync</name>
+        <description>Automagically synchronize subtitles with video.</description>
+        <details>star: 2,692</details>
+        <details>fork: 64</details>
+        <details>programmingLanguage: Python</details>
+        <details>159 stars today</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>CS-Notes</name>
+        <description>😋 技术面试必备基础知识</description>
+        <details>star: 51,334</details>
+        <details>fork: 15,829</details>
+        <details>131 stars today</details>
+    </xmlAdaptedRepos>
+</Repositories>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Repositories>
+    <xmlAdaptedRepos>
+        <name>USTC-CS-Courses-Resource</name>
+        <description>❤️中国科学技术大学计算机学院课程资源(https://mbinary.xyz/ustc-cs/)</description>
+        <details>star: 11,981</details>
+        <details>fork: 3,666</details>
+        <details>programmingLanguage: C++</details>
+        <details>10,236 stars this week</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>frontend-bootcamp</name>
+        <description>Frontend Workshop from HTML/CSS/JS to TypeScript/React/Redux</description>
+        <details>star: 4,305</details>
+        <details>fork: 399</details>
+        <details>programmingLanguage: TypeScript</details>
+        <details>4,287 stars this week</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>Algorithm_Interview_Notes-Chinese</name>
+        <description>2018/2019/校招/春招/秋招/算法/机器学习(Machine Learning)/深度学习(Deep Learning)/自然语言处理(NLP)/C/C++/Python/面试笔记</description>
+        <details>star: 17,442</details>
+        <details>fork: 5,124</details>
+        <details>programmingLanguage: Python</details>
+        <details>3,861 stars this week</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>cleave.js</name>
+        <description>Format input text content when you are typing...</description>
+        <details>star: 12,810</details>
+        <details>fork: 969</details>
+        <details>programmingLanguage: JavaScript</details>
+        <details>3,160 stars this week</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>Micro8</name>
+        <description>Gitbook</description>
+        <details>star: 9,395</details>
+        <details>fork: 3,405</details>
+        <details>2,630 stars this week</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>subsync</name>
+        <description>Automagically synchronize subtitles with video.</description>
+        <details>star: 2,692</details>
+        <details>fork: 64</details>
+        <details>programmingLanguage: Python</details>
+        <details>2,688 stars this week</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>k3s</name>
+        <description>Lightweight Kubernetes. 5 less than k8s.</description>
+        <details>star: 3,684</details>
+        <details>fork: 126</details>
+        <details>programmingLanguage: Go</details>
+        <details>2,617 stars this week</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>zero</name>
+        <description>Zero is a web server to simplify web development.</description>
+        <details>star: 2,619</details>
+        <details>fork: 55</details>
+        <details>programmingLanguage: Python</details>
+        <details>2,605 stars this week</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>coobjc</name>
+        <description>coobjc provides coroutine support for Objective-C and Swift. We added await method、generator and actor model like C#、Javascript and Kotlin. For convenience, we added coroutine categories for some Foundation and UIKit API in cokit framework like NSFileManager, JSON, NSData, UIImage etc. We also add tuple support in coobjc.</description>
+        <details>star: 2,067</details>
+        <details>fork: 246</details>
+        <details>programmingLanguage: Objective-C</details>
+        <details>2,058 stars this week</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>simdjson</name>
+        <description>Parsing gigabytes of JSON per second</description>
+        <details>star: 5,228</details>
+        <details>fork: 231</details>
+        <details>programmingLanguage: C++</details>
+        <details>2,080 stars this week</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>faceswap</name>
+        <description>Non official project based on original /r/Deepfakes thread. Many thanks to him!</description>
+        <details>star: 14,878</details>
+        <details>fork: 4,930</details>
+        <details>programmingLanguage: Python</details>
+        <details>1,602 stars this week</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>Awesome-Design-Tools</name>
+        <description>The best design tools for everything.</description>
+        <details>star: 5,529</details>
+        <details>fork: 297</details>
+        <details>1,833 stars this week</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>JavaGuide</name>
+        <description>【Java学习+面试指南】 一份涵盖大部分Java程序员所需要掌握的核心知识。</description>
+        <details>star: 26,885</details>
+        <details>fork: 8,171</details>
+        <details>programmingLanguage: Java</details>
+        <details>1,526 stars this week</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>AdaBound</name>
+        <description>An optimizer that trains as fast as Adam and as good as SGD.</description>
+        <details>star: 1,627</details>
+        <details>fork: 133</details>
+        <details>programmingLanguage: Python</details>
+        <details>1,611 stars this week</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>halley</name>
+        <description>A lightweight game engine written in modern C++</description>
+        <details>star: 1,800</details>
+        <details>fork: 64</details>
+        <details>programmingLanguage: C++</details>
+        <details>1,581 stars this week</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>bullet</name>
+        <description>🚅 Beautiful Python prompts made simple. Build a prompt like stacking blocks.</description>
+        <details>star: 1,519</details>
+        <details>fork: 25</details>
+        <details>programmingLanguage: Python</details>
+        <details>1,512 stars this week</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>personal-website</name>
+        <description>Code that'll help you kickstart a personal website that showcases your work as a software developer.</description>
+        <details>star: 2,756</details>
+        <details>fork: 1,550</details>
+        <details>programmingLanguage: CSS</details>
+        <details>1,178 stars this week</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>Motrix</name>
+        <description>A full-featured download manager.</description>
+        <details>star: 4,545</details>
+        <details>fork: 363</details>
+        <details>programmingLanguage: JavaScript</details>
+        <details>1,452 stars this week</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>nsfwjs</name>
+        <description>NSFW detection on the client-side via Tensorflow JS</description>
+        <details>star: 1,713</details>
+        <details>fork: 79</details>
+        <details>programmingLanguage: JavaScript</details>
+        <details>1,442 stars this week</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>CS-Notes</name>
+        <description>😋 技术面试必备基础知识</description>
+        <details>star: 51,334</details>
+        <details>fork: 15,829</details>
+        <details>1,089 stars this week</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>the-book-of-secret-knowledge</name>
+        <description>⭐️ A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.</description>
+        <details>star: 17,429</details>
+        <details>fork: 1,488</details>
+        <details>1,176 stars this week</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>pi-hole</name>
+        <description>A black hole for Internet advertisements</description>
+        <details>star: 13,789</details>
+        <details>fork: 979</details>
+        <details>programmingLanguage: Shell</details>
+        <details>1,116 stars this week</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>Awesome-WAF</name>
+        <description>🔥 A curated list of awesome web-app firewall (WAF) stuff.</description>
+        <details>star: 1,050</details>
+        <details>fork: 123</details>
+        <details>1,045 stars this week</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>spring-boot-examples</name>
+        <description>about learning Spring Boot via examples. Spring Boot 教程、技术栈示例代码，快速简单上手教程。</description>
+        <details>star: 9,297</details>
+        <details>fork: 4,778</details>
+        <details>programmingLanguage: Java</details>
+        <details>997 stars this week</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>Daily-Interview-Question</name>
+        <description>工作日每天一道前端大厂面试题，祝大家天天进步，一年后会看到不一样的自己。</description>
+        <details>star: 2,614</details>
+        <details>fork: 188</details>
+        <details>1,054 stars this week</details>
+    </xmlAdaptedRepos>
+</Repositories>

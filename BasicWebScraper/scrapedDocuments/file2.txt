@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Repositories>
+    <xmlAdaptedRepos>
+        <name>USTC-CS-Courses-Resource</name>
+        <description>❤️中国科学技术大学计算机学院课程资源(https://mbinary.xyz/ustc-cs/)</description>
+        <details>star: 11,981</details>
+        <details>fork: 3,666</details>
+        <details>programmingLanguage: C++</details>
+        <details>11,076 stars this month</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>Micro8</name>
+        <description>Gitbook</description>
+        <details>star: 9,395</details>
+        <details>fork: 3,405</details>
+        <details>9,367 stars this month</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>git-history</name>
+        <description>Quickly browse the history of a file from any git repository</description>
+        <details>star: 9,195</details>
+        <details>fork: 309</details>
+        <details>programmingLanguage: JavaScript</details>
+        <details>9,191 stars this month</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>Algorithm_Interview_Notes-Chinese</name>
+        <description>2018/2019/校招/春招/秋招/算法/机器学习(Machine Learning)/深度学习(Deep Learning)/自然语言处理(NLP)/C/C++/Python/面试笔记</description>
+        <details>star: 17,442</details>
+        <details>fork: 5,124</details>
+        <details>programmingLanguage: Python</details>
+        <details>7,027 stars this month</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>How-To-Secure-A-Linux-Server</name>
+        <description>An evolving how-to guide for securing a Linux server.</description>
+        <details>star: 7,613</details>
+        <details>fork: 380</details>
+        <details>7,608 stars this month</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>nginx-quick-reference</name>
+        <description>⚡️ These notes describes how to improve Nginx performance, security and other important things; @ssllabs A+ 100%.</description>
+        <details>star: 7,129</details>
+        <details>fork: 403</details>
+        <details>6,826 stars this month</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>faceswap</name>
+        <description>Non official project based on original /r/Deepfakes thread. Many thanks to him!</description>
+        <details>star: 14,878</details>
+        <details>fork: 4,930</details>
+        <details>programmingLanguage: Python</details>
+        <details>5,826 stars this month</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>public-apis</name>
+        <description>A collective list of free APIs for use in software and web development.</description>
+        <details>star: 52,490</details>
+        <details>fork: 5,311</details>
+        <details>programmingLanguage: Python</details>
+        <details>5,599 stars this month</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>Awesome-Design-Tools</name>
+        <description>The best design tools for everything.</description>
+        <details>star: 5,529</details>
+        <details>fork: 297</details>
+        <details>5,490 stars this month</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>simdjson</name>
+        <description>Parsing gigabytes of JSON per second</description>
+        <details>star: 5,228</details>
+        <details>fork: 231</details>
+        <details>programmingLanguage: C++</details>
+        <details>5,205 stars this month</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>the-book-of-secret-knowledge</name>
+        <description>⭐️ A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.</description>
+        <details>star: 17,429</details>
+        <details>fork: 1,488</details>
+        <details>4,828 stars this month</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>JavaGuide</name>
+        <description>【Java学习+面试指南】 一份涵盖大部分Java程序员所需要掌握的核心知识。</description>
+        <details>star: 26,885</details>
+        <details>fork: 8,171</details>
+        <details>programmingLanguage: Java</details>
+        <details>4,154 stars this month</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>frontend-bootcamp</name>
+        <description>Frontend Workshop from HTML/CSS/JS to TypeScript/React/Redux</description>
+        <details>star: 4,305</details>
+        <details>fork: 399</details>
+        <details>programmingLanguage: TypeScript</details>
+        <details>4,267 stars this month</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>leon</name>
+        <description>🧠 Leon is your open-source personal assistant.</description>
+        <details>star: 4,350</details>
+        <details>fork: 206</details>
+        <details>programmingLanguage: JavaScript</details>
+        <details>4,349 stars this month</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>gpt-2</name>
+        <description>Code for the paper &quot;Language Models are Unsupervised Multitask Learners&quot;</description>
+        <details>star: 3,994</details>
+        <details>fork: 646</details>
+        <details>programmingLanguage: Python</details>
+        <details>3,991 stars this month</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>deep-learning-drizzle</name>
+        <description>Drench yourself in Deep Learning, Reinforcement Learning, Machine Learning, Computer Vision, and NLP by learning from these exciting lectures!!</description>
+        <details>star: 4,187</details>
+        <details>fork: 752</details>
+        <details>3,896 stars this month</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>DoraemonKit</name>
+        <description>简称 &quot;DoKit&quot; 。一款功能齐全的客户端（ iOS 、Android ）研发助手，你值得拥有。</description>
+        <details>star: 4,987</details>
+        <details>fork: 503</details>
+        <details>programmingLanguage: Java</details>
+        <details>3,684 stars this month</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>flexsearch</name>
+        <description>Next-Generation full text search library for Browser and Node.js</description>
+        <details>star: 4,250</details>
+        <details>fork: 100</details>
+        <details>programmingLanguage: JavaScript</details>
+        <details>3,792 stars this month</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>personal-website</name>
+        <description>Code that'll help you kickstart a personal website that showcases your work as a software developer.</description>
+        <details>star: 2,756</details>
+        <details>fork: 1,550</details>
+        <details>programmingLanguage: CSS</details>
+        <details>2,751 stars this month</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>cleave.js</name>
+        <description>Format input text content when you are typing...</description>
+        <details>star: 12,810</details>
+        <details>fork: 969</details>
+        <details>programmingLanguage: JavaScript</details>
+        <details>3,427 stars this month</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>ludwig</name>
+        <description>Ludwig is a toolbox built on top of TensorFlow that allows to train and test deep learning models without the need to write code.</description>
+        <details>star: 3,346</details>
+        <details>fork: 277</details>
+        <details>programmingLanguage: Python</details>
+        <details>3,346 stars this month</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>python-cheatsheet</name>
+        <description>Comprehensive Python Cheatsheet</description>
+        <details>star: 3,739</details>
+        <details>fork: 627</details>
+        <details>programmingLanguage: Python</details>
+        <details>3,221 stars this month</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>advanced-java</name>
+        <description>😮 互联网 Java 工程师进阶知识完全扫盲</description>
+        <details>star: 11,039</details>
+        <details>fork: 2,178</details>
+        <details>programmingLanguage: Java</details>
+        <details>3,041 stars this month</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>clusterfuzz</name>
+        <description>Scalable fuzzing infrastructure.</description>
+        <details>star: 3,264</details>
+        <details>fork: 217</details>
+        <details>programmingLanguage: Python</details>
+        <details>3,258 stars this month</details>
+    </xmlAdaptedRepos>
+    <xmlAdaptedRepos>
+        <name>CS-Notes</name>
+        <description>😋 技术面试必备基础知识</description>
+        <details>star: 51,334</details>
+        <details>fork: 15,829</details>
+        <details>2,884 stars this month</details>
+    </xmlAdaptedRepos>
+</Repositories>

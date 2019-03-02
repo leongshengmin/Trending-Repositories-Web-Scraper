@@ -1,25 +1,21 @@
 package Models;
 
 import java.io.Serializable;
-import java.util.HashMap;
 import java.util.LinkedList;
 
 public class Repository implements Serializable {
     private String name;
     private String description;
-    private HashMap<String, String> labelValuePairs;
     private LinkedList<String> details;
 
     public Repository() {
-        this.labelValuePairs = new HashMap<>();
         this.details = new LinkedList<>();
     }
 
-    public Repository(String name, String description, HashMap<String, String> labelValuePairs, LinkedList<String> details) {
+    public Repository(String name, String description, LinkedList<String> details) {
         this.name = name;
         this.description = description;
         this.details = details;
-        this.labelValuePairs = labelValuePairs;
     }
 
     public void setName(String name) {
@@ -34,28 +30,17 @@ public class Repository implements Serializable {
         this.details.add(details);
     }
 
-    public boolean addLabelValuePair(String label, String value) {
-        if (labelValuePairs.containsKey(label)) {
-            return false;
-        }
-        labelValuePairs.put(label, value);
-        return true;
+    public void addLabelValuePair(String label, String value) {
+        addDetails(String.format("%s: %s", label, value));
     }
 
     @Override
     public String toString() {
         String repoNameDesc = String.format("Name: %s, \nDescription: %s\n", name, description);
         System.out.println(repoNameDesc);
-        labelValuePairs.entrySet().forEach(e -> {
-            System.out.println(e.getKey() + " : " + e.getValue());
-        });
         System.out.println("Details: ");
         details.forEach(System.out::println);
         return repoNameDesc;
-    }
-
-    public HashMap<String, String> getLabelValuePairs() {
-        return labelValuePairs;
     }
 
     public LinkedList<String> getDetails() {

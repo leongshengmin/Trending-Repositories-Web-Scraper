@@ -61,7 +61,7 @@ public class XmlUtil {
         }
 
         // converts content of {@code data's} class into a properly formatted FXML file
-        JAXBContext context = JAXBContext.newInstance(data.getClass());
+        JAXBContext context = JAXBContext.newInstance( data.getClass());
         Marshaller m = context.createMarshaller();
         m.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
 

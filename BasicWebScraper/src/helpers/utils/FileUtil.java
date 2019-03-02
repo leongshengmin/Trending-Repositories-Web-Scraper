@@ -2,6 +2,7 @@ package helpers.utils;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
@@ -12,15 +13,25 @@ import Models.XmlAdaptedRepoList;
 
 public class FileUtil {
 
-    private static final Path DEFAULT_PATH = Paths.get("..", "scrapedDocuments");
+    private static Path dir;
 
-    public static void saveToFile(RepoList parsedRepositories) throws IOException, JAXBException {
+    public static void saveToFile(RepoList parsedRepositories, int idx) throws IOException, JAXBException {
         XmlAdaptedRepoList xmlAdaptedRepoList = new XmlAdaptedRepoList(parsedRepositories);
-        XmlUtil.saveDataToFile(DEFAULT_PATH, xmlAdaptedRepoList);
+        XmlUtil.saveDataToFile(getPath(idx), xmlAdaptedRepoList);
     }
 
-    public static RepoList readFromFile() throws JAXBException, FileNotFoundException {
-        XmlAdaptedRepoList xmlAdaptedRepoList = XmlUtil.getDataFromFile(DEFAULT_PATH, XmlAdaptedRepoList.class);
+    public static RepoList readFromFile(int idx) throws JAXBException, IOException {
+        XmlAdaptedRepoList xmlAdaptedRepoList = XmlUtil.getDataFromFile(getPath(idx), XmlAdaptedRepoList.class);
         return xmlAdaptedRepoList.toRepoList();
     }
+
+    public static void setDir() throws IOException {
+        dir = Files.createDirectory(Paths.get(".","scrapedDocuments"));
+    }
+
+    private static Path getPath(int idx) throws IOException {
+        Path fileToCreatePath = dir.resolve(String.format("file%d.txt", idx));
+        return fileToCreatePath;
+    }
+
 }

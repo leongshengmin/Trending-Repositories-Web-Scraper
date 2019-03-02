@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd2661ea-9da7-4c14-851d-2155131ae219" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Models/RepoList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Models/XmlAdaptedRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Models/XmlAdaptedRepoList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/XmlUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../2019_y2s2/CS2105/Assignments/Assign1/HttpRequest.py" beforeDir="false" afterPath="$PROJECT_DIR$/../2019_y2s2/CS2105/Assignments/Assign1/HttpRequest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicWebScraper.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BasicWebScraper.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Models/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Repository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Spider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Spider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helpers/DocumentParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/DocumentParser.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,8 +34,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/helpers/DocumentParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="1290">
+              <caret line="85" column="59" selection-start-line="85" selection-start-column="59" selection-end-line="85" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2022#2023#0" expanded="true" />
@@ -42,10 +50,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Models/RepoList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#326#327#0" expanded="true" />
+                <element signature="e#366#367#0" expanded="true" />
+                <element signature="e#260#261#0" expanded="true" />
+                <element signature="e#315#316#0" expanded="true" />
+                <element signature="e#376#377#0" expanded="true" />
+                <element signature="e#417#418#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Models/Repository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+            <state relative-caret-position="266">
+              <caret line="17" column="93" selection-start-line="17" selection-start-column="93" selection-end-line="17" selection-end-column="93" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#290#291#0" expanded="true" />
@@ -54,6 +80,14 @@
                 <element signature="e#422#423#0" expanded="true" />
                 <element signature="e#474#475#0" expanded="true" />
                 <element signature="e#512#513#0" expanded="true" />
+                <element signature="e#1402#1403#0" expanded="true" />
+                <element signature="e#1440#1441#0" expanded="true" />
+                <element signature="e#1486#1487#0" expanded="true" />
+                <element signature="e#1516#1517#0" expanded="true" />
+                <element signature="e#1554#1555#0" expanded="true" />
+                <element signature="e#1588#1589#0" expanded="true" />
+                <element signature="e#1619#1620#0" expanded="true" />
+                <element signature="e#1646#1647#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -76,8 +110,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Spider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+            <state relative-caret-position="192">
+              <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#307#308#0" expanded="true" />
@@ -89,13 +123,54 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Models/XmlAdaptedRepo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#839#840#0" expanded="true" />
+                <element signature="e#877#878#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Models/XmlAdaptedRepoList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#237#238#0" expanded="true" />
+                <element signature="e#293#294#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/helpers/XmlUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="362">
+              <caret line="36" column="28" lean-forward="true" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1601#1631#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -115,9 +190,13 @@
         <option value="$PROJECT_DIR$/src/Repository.java" />
         <option value="$PROJECT_DIR$/src/helpers/Parser.java" />
         <option value="$PROJECT_DIR$/src/Launcher.java" />
-        <option value="$PROJECT_DIR$/src/Models/Repository.java" />
         <option value="$PROJECT_DIR$/src/helpers/RepositoryParser.java" />
+        <option value="$PROJECT_DIR$/src/Models/Repository.java" />
         <option value="$PROJECT_DIR$/src/helpers/DocumentParser.java" />
+        <option value="$PROJECT_DIR$/src/Models/XmlAdaptedRepo.java" />
+        <option value="$PROJECT_DIR$/src/Models/RepoList.java" />
+        <option value="$PROJECT_DIR$/src/Models/XmlAdaptedRepoList.java" />
+        <option value="$PROJECT_DIR$/src/helpers/XmlUtil.java" />
         <option value="$PROJECT_DIR$/src/Spider.java" />
       </list>
     </option>
@@ -152,6 +231,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="helpers" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="BasicWebScraper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="BasicWebScraper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="jaxb-api-2.2.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -160,11 +248,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551501747611" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Programming_Assignment_1/Task A/Battery.java" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551505440297" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/jaxb-api-2.2.jar/jaxb-api-2.2.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.31578946" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -244,7 +332,7 @@
     <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09554656" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19190283" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -262,8 +350,8 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49959514" visible="true" weight="0.506993" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50040483" side_tool="true" visible="true" weight="0.506993" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49959514" visible="true" weight="0.28321677" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50040483" side_tool="true" visible="true" weight="0.28321677" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32867134" />
       <window_info anchor="bottom" id="Console" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
@@ -282,12 +370,6 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/helpers/DocumentParser.java</url>
-          <line>33</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/helpers/RepositoryParser.java</url>
           <line>32</line>
           <properties />
@@ -301,7 +383,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Spider.java</url>
-          <line>33</line>
+          <line>37</line>
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
@@ -336,8 +418,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Models/Repository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+        <state relative-caret-position="266">
+          <caret line="17" column="93" selection-start-line="17" selection-start-column="93" selection-end-line="17" selection-end-column="93" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#290#291#0" expanded="true" />
@@ -346,22 +428,14 @@
             <element signature="e#422#423#0" expanded="true" />
             <element signature="e#474#475#0" expanded="true" />
             <element signature="e#512#513#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/helpers/DocumentParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2022#2023#0" expanded="true" />
-            <element signature="e#2049#2050#0" expanded="true" />
-            <element signature="e#2118#2119#0" expanded="true" />
-            <element signature="e#2164#2165#0" expanded="true" />
-            <element signature="e#2330#2331#0" expanded="true" />
-            <element signature="e#2365#2366#0" expanded="true" />
+            <element signature="e#1402#1403#0" expanded="true" />
+            <element signature="e#1440#1441#0" expanded="true" />
+            <element signature="e#1486#1487#0" expanded="true" />
+            <element signature="e#1516#1517#0" expanded="true" />
+            <element signature="e#1554#1555#0" expanded="true" />
+            <element signature="e#1588#1589#0" expanded="true" />
+            <element signature="e#1619#1620#0" expanded="true" />
+            <element signature="e#1646#1647#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -378,10 +452,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Spider.java">
+    <entry file="file://$PROJECT_DIR$/src/helpers/DocumentParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1290">
+          <caret line="85" column="59" selection-start-line="85" selection-start-column="59" selection-end-line="85" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2022#2023#0" expanded="true" />
+            <element signature="e#2049#2050#0" expanded="true" />
+            <element signature="e#2118#2119#0" expanded="true" />
+            <element signature="e#2164#2165#0" expanded="true" />
+            <element signature="e#2330#2331#0" expanded="true" />
+            <element signature="e#2365#2366#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Models/XmlAdaptedRepo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
-          <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#839#840#0" expanded="true" />
+            <element signature="e#877#878#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Models/RepoList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Models/XmlAdaptedRepoList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/helpers/XmlUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="36" column="28" lean-forward="true" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1601#1631#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Spider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#307#308#0" expanded="true" />

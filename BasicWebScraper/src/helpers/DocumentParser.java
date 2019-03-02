@@ -3,6 +3,7 @@ package helpers;
 import java.util.LinkedList;
 import java.util.logging.Logger;
 
+import Models.RepoList;
 import Models.Repository;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -13,12 +14,12 @@ public class DocumentParser implements Parser<Document> {
     private static Logger logger = Logger.getLogger(DocumentParser.class.getSimpleName());
 
     private Document document;
-    private LinkedList<Repository> parsedRepositories;
+    private RepoList parsedRepositories;
     private LinkedList<String> linksToVisit;
 
     public DocumentParser(Document document) {
         this.document = document;
-        this.parsedRepositories = new LinkedList<>();
+        this.parsedRepositories = new RepoList();
         this.linksToVisit = new LinkedList<>();
     }
 
@@ -33,8 +34,7 @@ public class DocumentParser implements Parser<Document> {
             for (Element repoElement : repoList.children()) {
                 RepositoryParser repositoryParser = new RepositoryParser(repoElement);
                 Repository parsed = repositoryParser.parse().getType();
-                parsedRepositories.add(parsed);
-                System.out.println(parsed);
+                parsedRepositories.addRepo(parsed);
             }
         }
         return this;
@@ -45,7 +45,7 @@ public class DocumentParser implements Parser<Document> {
         return document;
     }
 
-    public LinkedList<Repository> getParsedRepositories() {
+    public RepoList getParsedRepositories() {
         return this.parsedRepositories;
     }
 
@@ -83,7 +83,7 @@ public class DocumentParser implements Parser<Document> {
     @Override
     public String toString() {
         System.out.println("Parsed repositories: ");
-        parsedRepositories.forEach(repo -> repo.toString());
+        parsedRepositories.getParsedRepositories().forEach(repo -> repo.toString());
         System.out.println("Links to visit: ");
         linksToVisit.forEach(link -> System.out.println(link));
         return null;

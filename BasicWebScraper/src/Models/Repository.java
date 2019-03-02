@@ -1,9 +1,10 @@
 package Models;
 
+import java.io.Serializable;
 import java.util.HashMap;
 import java.util.LinkedList;
 
-public class Repository {
+public class Repository implements Serializable {
     private String name;
     private String description;
     private HashMap<String, String> labelValuePairs;
@@ -12,6 +13,13 @@ public class Repository {
     public Repository() {
         this.labelValuePairs = new HashMap<>();
         this.details = new LinkedList<>();
+    }
+
+    public Repository(String name, String description, HashMap<String, String> labelValuePairs, LinkedList<String> details) {
+        this.name = name;
+        this.description = description;
+        this.details = details;
+        this.labelValuePairs = labelValuePairs;
     }
 
     public void setName(String name) {
@@ -44,5 +52,21 @@ public class Repository {
         System.out.println("Details: ");
         details.forEach(System.out::println);
         return repoNameDesc;
+    }
+
+    public HashMap<String, String> getLabelValuePairs() {
+        return labelValuePairs;
+    }
+
+    public LinkedList<String> getDetails() {
+        return details;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public String getName() {
+        return name;
     }
 }
